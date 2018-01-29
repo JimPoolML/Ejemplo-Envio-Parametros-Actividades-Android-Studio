@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="appjpm4everyone.ejemplo_desdecero.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/Txtnombre"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:id="@+id/Btningreso"
+        android:onClick="Click1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp"
+        android:id="@+id/Etinombre"
+        />
+
+</LinearLayout>
